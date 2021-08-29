@@ -1,0 +1,21 @@
+$css--reset: false;
+@import "../../node_modules/carbon-components/scss/globals/scss/theme";
+$carbon--theme: $carbon--theme--g10;
+@include carbon--theme();
+
+@import "../../node_modules/carbon-components/scss/components/breadcrumb/breadcrumb";
+@import "../../node_modules/carbon-components/scss/components/data-table/data-table";
+@import "../../node_modules/carbon-components/scss/components/toolbar/toolbar";
+@import "../../node_modules/carbon-components/scss/components/modal/modal";
+@import "../../node_modules/carbon-components/scss/components/select/select";
+@import "../../node_modules/carbon-components/scss/components/multi-select/multi-select";
+@import "../../node_modules/carbon-components/scss/components/tag/tag";
+@import "../../node_modules/carbon-components/scss/components/list-box/list-box";
+@import "../../node_modules/carbon-components/scss/components/text-input/text-input";
+@import "../../node_modules/carbon-components/scss/components/text-area/text-area";
+@import "../../node_modules/carbon-components/scss/components/notification/inline-notification";
+@import "../../node_modules/carbon-components/scss/components/ui-shell/ui-shell";
+@import "../../node_modules/carbon-components/scss/components/toggle/toggle";
+@import "../../node_modules/carbon-components/scss/components/overflow-menu/overflow-menu";
+@import "../../node_modules/carbon-components/scss/components/loading/loading";
+@import "../../node_modules/carbon-components/scss/components/tile/tile";
